@@ -6,3 +6,11 @@ body{
     /* background-color: rgb(68, 63, 63); */
     
 }
+
+@media only screen and (max-width: 600px) {
+    img{
+        height: auto;
+        width: 90%;
+        max-height: 100%;
+    }
+}

@@ -25,7 +25,6 @@ const Api=()=>{
                             
                             <>
                             <Navbar/>
-                               
                                 <div style={{marginTop:"100px",padding:"12px"}} className="text-center container border">
                                     <div className="me-1">
                                         <p>Written By :<img style={{width:"50px",height:"50px",borderRadius:"50%"}} src={elem.authorimage} alt="image"/> {elem.author} </p>

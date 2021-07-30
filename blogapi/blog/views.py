@@ -10,3 +10,5 @@ class BlogViewset(viewsets.ModelViewSet):
     permission_classes =[IsAdminorReadonly]
     serializer_class = BlogSerializer
     queryset = Blog.objects.all()
+    filterset_fields = ['title', "id","category"]
+    search_fields = ['title']
